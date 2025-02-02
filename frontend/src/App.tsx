@@ -1,4 +1,4 @@
-import { useState } from 'react';
+Copyimport { useState } from 'react';
 import { Card } from './components/ui/card';
 import { Button } from './components/ui/button';
 import VideoUpload from './components/VideoUpload';
@@ -9,7 +9,7 @@ function App() {
       <div className="max-w-4xl mx-auto">
         <Card className="p-6">
           <h1 className="text-2xl font-bold mb-4">Faceless Social Tool</h1>
-          {/* Add VideoUpload component here once created */}
+          <VideoUpload />
         </Card>
       </div>
     </div>
