@@ -1,4 +1,4 @@
-Copyimport { useState } from 'react';
+import { useState } from 'react';
 import { Card } from './components/ui/card';
 import { Button } from './components/ui/button';
 import VideoUpload from './components/VideoUpload';
@@ -13,7 +13,7 @@ function App() {
         </Card>
       </div>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
