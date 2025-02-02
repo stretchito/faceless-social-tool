@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import { Card } from '../components/ui/card';
-import { Button } from '@/components/ui/button';
-import VideoUpload from '../components/VideoUpload';
+import { Card } from './components/ui/card';
+import { Button } from './components/ui/button';
+import VideoUpload from './components/VideoUpload';
 
 function App() {
   return (
