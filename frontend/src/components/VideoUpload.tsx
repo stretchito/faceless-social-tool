@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { AlertCircle, Loader2 } from 'lucide-react';
-import { Alert, AlertDescription } from './ui/alert';
+import { Alert, AlertDescription } from '../../components/ui/alert';
 import { Button } from './ui/button';
 
 const VideoUpload = () => {
